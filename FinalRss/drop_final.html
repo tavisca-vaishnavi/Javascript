@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+
+<title> Show RSS Feed </title>
+
+<script src="rsss.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+<div class="header">
+ <h1 class="text-adjust"> RSS FEED READER 1.0!</h1>
+</div>
+<form>
+<div class="sub-header">
+
+<select class="drop_attr" id="choice" onchange="Feed();">
+<option value="default">Select Deals for</option>
+<option value="hotel">Hotels</option>
+<option value="car">Cars</option>
+</select><br>
+</form>
+</div>
+<div class="remove">
+<textarea id="Content" rows="10" cols="100"></textarea>
+</div>
+
+<div class = "container" id="displayArea">
+
+</div>
+</body>
+
+
+</html>
